@@ -46,4 +46,6 @@ public class JobRunner implements ApplicationRunner {
         quartzJobs.forEach(quartzManage::addJob);
         System.out.println("--------------------定时任务注入完成---------------------");
     }
+
+
 }
